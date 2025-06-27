@@ -6,6 +6,8 @@ import PhotosPage from "./pages/PhotosPage";
 import GroupsPage from "./pages/GroupsPage";
 import FriendsPage from "./pages/FriendsPage";
 import FriendRequestPage from "./pages/FriendRequestPage";
+import AboutPage from "./pages/AboutPage";
+import NotFoundPage from "./pages/NotFoundPage";
 
 
 function App() {
@@ -20,7 +22,9 @@ function App() {
           <Route path="/groups" element={<GroupsPage />} />
           <Route path="/friends" element={<FriendsPage />} />
           <Route path="/friend-request" element={<FriendRequestPage />} />
+          <Route path="/about" element={<AboutPage />} />
         </Route>
+        <Route path="*" element={<NotFoundPage />} />
       </Routes>
     </>
   )
