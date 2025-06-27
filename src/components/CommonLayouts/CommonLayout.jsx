@@ -3,6 +3,9 @@ import Header from '../Header'
 import SidebarMain from './SidebarMain'
 import { Outlet } from 'react-router-dom'
 import FriendSidebar from './FriendSidebar'
+import { AiFillFacebook } from 'react-icons/ai'
+import { FaInstagram, FaTwitter, FaYoutube } from 'react-icons/fa'
+import TopProfileSection from './TopProfileSection'
 
 const CommonLayout = () => {
     return (
@@ -12,7 +15,8 @@ const CommonLayout = () => {
                 <div className='min-w-[18%]'>
                     <SidebarMain />
                 </div>
-                <div className='max-w-[76.65%]'>
+                <div className='grow'>
+                    <TopProfileSection />
                     <Outlet />
                 </div>
                 <div className='min-w-20 bg-white'>

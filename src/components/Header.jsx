@@ -10,7 +10,7 @@ const Header = () => {
             <div className='w-[17%]'>
                 <Link to={'/'}><img src="mernianLogo.png" alt="mernianLogo.png" /></Link>
             </div>
-            <div className='w-[83%] flex items-center justify-between font-poppins text-white'>
+            <div className='grow flex items-center justify-between font-poppins text-white'>
                 <ul className='flex items-center gap-x-12 font-bold text-sm'>
                     <li><PiListBold className='text-xl' /></li>
                     <li><Link to={'#'}>Careers</Link></li>

@@ -18,7 +18,7 @@ const SidebarMain = () => {
                         <img src="#" alt="" />
                     </div>
                 </div>
-                <h3 className='font-bold text-base to-black mt-4 text-center'>A B M Shawon Islam</h3>
+                <h3 className='font-bold text-base text-black mt-4 text-center'>A B M Shawon Islam</h3>
                 <p className='font-medium text-xs text-[#AFB0C0] text-center'>www.abm.com</p>
             </div>
             <div className='max-w-58 mx-auto mt-10.5 mb-12.5 flex justify-between'>
@@ -38,27 +38,27 @@ const SidebarMain = () => {
 
             {/* ========== Link List ========== */}
             <ul className='flex flex-col gap-y-1 pl-6 pr-2'>
-                <li><Link to={'/'} className={` flex items-center gap-x-7 pl-5 py-4 rounded-xl ${location.pathname == '/' ? 'text-white bg-[#23D2E2]' : 'text-[#AFB0C0]'}`}>
+                <li><Link to={'/'} className={` flex items-center gap-x-7 pl-5 py-4 rounded-xl ${location.pathname == '/' ? 'text-white bg-secondary' : 'text-[#AFB0C0]'}`}>
                     <FaNewspaper />
                     <span className='font-semibold text-sm '>Newsfeed</span>
                 </Link></li>
-                <li><Link to={'/videos'} className={` flex items-center gap-x-7 pl-5 py-4 rounded-xl ${location.pathname == '/videos' ? 'text-white bg-[#23D2E2]' : 'text-[#AFB0C0]'}`}>
+                <li><Link to={'/videos'} className={` flex items-center gap-x-7 pl-5 py-4 rounded-xl ${location.pathname == '/videos' ? 'text-white bg-secondary' : 'text-[#AFB0C0]'}`}>
                     <FaGopuram />
                     <span className='font-semibold text-sm '>Videos</span>
                 </Link></li>
-                <li><Link to={'/groups'} className={` flex items-center gap-x-7 pl-5 py-4 rounded-xl ${location.pathname == '/groups' ? 'text-white bg-[#23D2E2]' : 'text-[#AFB0C0]'}`}>
+                <li><Link to={'/groups'} className={` flex items-center gap-x-7 pl-5 py-4 rounded-xl ${location.pathname == '/groups' ? 'text-white bg-secondary' : 'text-[#AFB0C0]'}`}>
                     <FaLayerGroup />
                     <span className='font-semibold text-sm '>Groups</span>
                 </Link></li>
-                <li><Link to={'/photos'} className={` flex items-center gap-x-7 pl-5 py-4 rounded-xl ${location.pathname == '/photos' ? 'text-white bg-[#23D2E2]' : 'text-[#AFB0C0]'}`}>
+                <li><Link to={'/photos'} className={` flex items-center gap-x-7 pl-5 py-4 rounded-xl ${location.pathname == '/photos' ? 'text-white bg-secondary' : 'text-[#AFB0C0]'}`}>
                     <FaAlgolia />
                     <span className='font-semibold text-sm '>Photos</span>
                 </Link></li>
-                <li><Link to={'/friends'} className={` flex items-center gap-x-7 pl-5 py-4 rounded-xl ${location.pathname == '/friends' ? 'text-white bg-[#23D2E2]' : 'text-[#AFB0C0]'}`}>
+                <li><Link to={'/friends'} className={` flex items-center gap-x-7 pl-5 py-4 rounded-xl ${location.pathname == '/friends' ? 'text-white bg-secondary' : 'text-[#AFB0C0]'}`}>
                     <FaUserFriends />
                     <span className='font-semibold text-sm '>Friends</span>
                 </Link></li>
-                <li><Link to={'/friend-request'} className={` flex items-center gap-x-7 pl-5 py-4 rounded-xl ${location.pathname == '/friend-request' ? 'text-white bg-[#23D2E2]' : 'text-[#AFB0C0]'}`}>
+                <li><Link to={'/friend-request'} className={` flex items-center gap-x-7 pl-5 py-4 rounded-xl ${location.pathname == '/friend-request' ? 'text-white bg-secondary' : 'text-[#AFB0C0]'}`}>
                     <FaAmericanSignLanguageInterpreting />
                     <span className='font-semibold text-sm '>Friends Request</span>
                 </Link></li>
